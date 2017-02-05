@@ -7,8 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 
 	@RequestMapping("")
-	public String index(){
+	public String index() {
 		return "main/index";
 	}
-	
+
+	// yeo:블로그 연결
+	@RequestMapping("/blog")
+	public String blog() {
+		return "blog/blog";
+	}
+
 }

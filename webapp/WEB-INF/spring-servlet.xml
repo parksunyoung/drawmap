@@ -8,6 +8,7 @@
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
 	xmlns:mvc="http://www.springframework.org/schema/mvc">
 
+	<!-- annotation 설정  -->
 	<context:annotation-config />
 	<context:component-scan base-package="com.girls.drawmap.controller" />
 
@@ -49,5 +50,5 @@
 		<property name="suffix" value=".jsp" />
 		<property name="order" value="1" />
 	</bean>
-
+	
 </beans>
